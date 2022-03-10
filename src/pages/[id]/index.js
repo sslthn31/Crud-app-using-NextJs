@@ -41,7 +41,6 @@ const Note = ({ note }) => {
             ? <Loader active />
             :
             <div className='detail-container'>
-                <h2>{note.firstName} {note.lastName}</h2>
                 <p className="detail-data-id">
                 {note._id}    
                 </p>

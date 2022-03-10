@@ -16,7 +16,7 @@ const Index = ({ notes }) => {
                 <Card.Header>
                   <div className="data-name">  
                   <Link href={`/${note._id}`}>
-                    <a>{note.firstName}{note.lastName}</a>
+                    <a>{note.firstName} {note.lastName}</a>
                   </Link>
                   </div>
                   <p className='data-id'>{note._id}</p>
