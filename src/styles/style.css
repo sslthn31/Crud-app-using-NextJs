@@ -38,9 +38,10 @@
 
 .data-name{
     padding-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .data-name a{
+    text-transform: capitalize;
     text-decoration: none;
     color: black;
     transition: all 0.3s ease;
@@ -61,9 +62,19 @@
 }
 
 .detail-container{
-    padding: 50px 100px;
+    padding: 30px 70px;
 }
 
+.detail-card{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.detail-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
 .button{
     display: flex;
     justify-content: flex-end;

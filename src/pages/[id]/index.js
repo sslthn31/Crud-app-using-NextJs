@@ -41,6 +41,8 @@ const Note = ({ note }) => {
             ? <Loader active />
             :
             <div className='detail-container'>
+                <div className="detail-card">
+                <h3 className='detail-name'>{note.firstName} {note.lastName}</h3>
                 <p className="detail-data-id">
                 {note._id}    
                 </p>
@@ -49,6 +51,7 @@ const Note = ({ note }) => {
                 <p>{note.address}</p>
                 <div className="button">
                 <Button onClick={open} color="red">Delete</Button>
+                </div>
                 </div>
             </div>
         }

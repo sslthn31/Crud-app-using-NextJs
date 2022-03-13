@@ -21,14 +21,11 @@ const Index = ({ notes }) => {
                   </div>
                   <p className='data-id'>{note._id}</p>
                   </Card.Header>
-                  <p className='data-email'>{note.email}</p>
-                  <p className='data-phone'>{note.phone}</p>
-                  <p className='data-address'>{note.address}</p>
               </Card.Content>  
               <Card.Content>
                 <div className="button-list">
                 <Link href={`/${note._id}`}>
-                  <Button primary>View</Button>
+                  <Button primary>Details</Button>
                 </Link>
                 <Link href={`/${note._id}/edit`}>
                   <Button secondary>Edit</Button>
